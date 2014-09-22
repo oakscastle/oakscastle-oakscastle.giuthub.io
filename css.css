@@ -42,10 +42,13 @@ a {
     text-decoration: none;
     color: #039;
     transition-duration: 0.25s;
+    border-bottom: 1px dashed rgba(0,0,0,0.3);
+    padding-bottom: .1em;
 }
 
 a:hover {
     color: #B85C00;
+    border-bottom-style: solid;
 }
 
 p {
@@ -54,6 +57,11 @@ p {
     margin: auto;
     text-align: justify;
     margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+p::first-letter {
+    font-size: 120%;
 }
 
 hr {
