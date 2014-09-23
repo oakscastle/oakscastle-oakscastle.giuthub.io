@@ -91,6 +91,26 @@ hr {
     list-style: none;
 }
 
-.icon {
+#icons li {
+    display: inline;
+    margin-right: 1.5em;
+}
+
+#icons a {
+    display: inline-block;
     height: 3em;
+    border: 5px solid;
+    border-radius: 1.5em;
+    padding: .35em .5em;
+    border-color: #224;
+}
+
+#icons object {
+    display: block;
+    height: 3em;
+}
+
+#icons a:hover {
+    border-style: dotted;
+    background-color: #DDD;
 }
